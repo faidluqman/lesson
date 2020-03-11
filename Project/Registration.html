@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>User Registration</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form method="post" action="handle_Registration.php">
+            <p>Name:
+            <input type="text" name="name"required/></p>
+            <p>Gender:
+            <input type="radio" name="gender" value="M" required/>Male
+            <input type="radio" name="gender" value="F" required/>Female</p>
+            <p>Identity Card/ Passport number:
+            <input type="text" name="idname" required/></p>
+            <p>Email address:
+            <input type="text" name="email" required/></p>
+            <p>Password:
+            <input type="password" name="password" required/></p>
+            <p>Repeat Password:
+            <input type="password" name="repeatpassword" required/></p>
+            <p><input type="submit" name="submit" value="Register"/></p>
+        </form>
+    </body>
+</html>
